@@ -1,0 +1,308 @@
+@media screen and (max-width:700px) {
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .topnav .responsive {
+    position: relative;
+  }
+
+  .topnav .responsive .icon {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+
+  .topnav .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+
+@media screen and (max-width:1310px) {
+  .grid-container-2 img {
+    width: 400px;
+  }
+
+  .content p {
+    padding-left: 50px !important;
+  }
+
+  /* four column  */
+
+  .four-column img {
+    width: 230px;
+  }
+
+  .four-column p {
+    padding-left: 15px;
+  }
+
+  /* one big column */
+
+  .one-big-column h2 {
+    margin: 20px 40px;
+  }
+  
+  .one-big-column p {
+    padding-left: 40px;
+  }
+
+  .alignment {
+    margin: 40px 0 20px 40px;
+  }
+
+  /* contact form */
+
+  textarea {
+    position: absolute;
+    top: 41%;
+    left:48%;
+    margin-top: 30px !important;
+  }
+
+  textarea {
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+  nav {
+    min-height: 10%;
+  }
+
+  nav ul li {
+    padding: 15px 10px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 7px 12px;
+  }
+
+  .header-title {
+    font-size: 25px;
+  }
+
+  .header-text {
+    font-size: 16px;
+  }
+
+
+  .grid-3-img {
+    width: 250px;
+  }
+
+  .button-hide {
+    display: none;
+  }
+
+  .btn-1, .btn-2, .btn-3 {
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    font-size: 18px;
+  }
+
+
+  .card-2 img {
+    width: 350px;
+  }
+
+
+  .four-column img {
+    width: 190px;
+  }
+
+  .four-column p {
+    padding-left: 13px;
+  }
+
+
+  .extra-button-class {
+    width: 100px;
+    height: 40px;
+}
+
+
+  .one-big-column img {
+    width: 800px;
+  }
+
+
+  /* contact form */
+
+  .parallax {
+    height: 100vh;
+  }
+
+  .textarea {
+    width: 50%;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:900px) {
+  .grid-container-1 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .grid-container-1 img {
+    width: 300px;
+  }
+
+  /* .card-1 {
+    position: relative;
+  }
+
+  .sample img, .content-1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);    
+  } */
+
+  .grid-container-2 img {
+    width: 300px;
+  }
+
+  .unwanted-para {
+    display: none;
+  }
+  
+  .content-2 {
+    position: relative;
+  }
+
+  .sample-button {
+    position: absolute;
+    width: 130px;
+  }
+
+
+
+  .four-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .four-column img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .four-column p{
+    text-align: justify;
+    padding-left: 40px;
+    margin-bottom: 10px;
+  }
+
+
+  .one-big-column img {
+    width: 700px;
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:775px) {
+
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-1 img {
+    width: 500px;
+  }
+
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container-2 img {
+    width: 600px;
+  }
+
+  .sample-button {
+    position: absolute;
+    top: 160px;
+    width: 130px;
+  }
+
+  .four-column img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .one-big-column img {
+    width: 600px;
+  }
+
+  .one-big-column p {
+    font-size: 13px;
+    line-height: 2em;
+  }
+
+
+  .textarea {
+    display: none;
+  }
+
+  .parallax {
+    position: relative;
+  }
+
+  .parallax h1 {
+    position: absolute;
+    left: 300px;
+  }
+
+  .myForm {
+    position: absolute;
+    top: 130px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+  nav ul {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .grid-container-2 img {
+    width: 500px;
+  }
+}
+
+
+
+
